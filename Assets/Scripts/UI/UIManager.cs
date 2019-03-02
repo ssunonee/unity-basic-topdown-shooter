@@ -24,7 +24,6 @@ public class UIManager : MonoBehaviour
         if (GameManager.player != null)
         {
             health_bar.RefreshBar(GameManager.player.GetComponent<Actor>().health);
-            Debug.Log(GameManager.player.GetComponent<Actor>().health);
         }
     }
     
